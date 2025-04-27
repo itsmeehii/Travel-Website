@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    
+}
+    
+
+body, html {
+    height: 100%;
+    width: 100%;
+    
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.login-form-container { /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.login-form label {
+    margin-bottom: 5px;
+}
+
+.login-form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(210, 210, 0, 0.761);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+
+
+.span1{
+    font-size: larger;
+    margin-bottom: 2px;
+    padding-bottom: 2px;
+}
+
+.slider2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.zoom { /* [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  }
+  
+  /* [2] Transition property for smooth transformation of images */
+  .zoom img {
+    transition: transform .5s ease;
+  }
+  
+  
+
+.i1{
+    padding: 15px;  
+    width: 50px;
+    height: 45px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.last_f{
+    width: 73%;
+    padding-top: 20px;
+    background-color: #3a3a3c;
+    color: #6f6f71;
+    position:relative;
+    bottom: 20px;
+    left: 80px;
+}
+
+.f1{
+    background-color: black; 
+    color: white; 
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    margin-left: 15px;
+    width: calc(100% - 30px);
+    margin-right: 15px;
+}
+
+.horizontal {
+    display: flex;
+    list-style: none; /* removes the bullet points from the list */
+  }
+  
+  .horizontal li {
+    margin-right: 20px; /* adds spacing between each list item */
+  }
+  .accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8'/%3E%3C/svg%3E")!important;
+    transform: var(--bs-accordion-btn-icon-transform);
+}
+
+.hover1:hover {
+    background-color: #032160!important;
+    color: white!important;
+  }
+
+
+  .accordion-button::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4'/%3E%3C/svg%3E")!important;
+  }
+
+  @media only screen and (max-width: 992px) {
+    .mq{
+        background-color: white;
+        z-index: 0;
+    }
+
+    .mq1{
+        width: 100px;
+        height: 80px;
+    }
+    
+  }
+  
